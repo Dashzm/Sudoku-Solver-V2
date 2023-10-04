@@ -22,7 +22,7 @@ class Sudoku:
                 cell = self.board[j][i]
                 if cell is None:
                     if len(self.poss(i, j)) == 2:
-                        out_string += '+'
+                        out_string += '.'
                     else:
                         out_string += '.'
                 else:
